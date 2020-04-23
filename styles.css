@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-decoration:none;
+    word-spacing: 20px;
+    top:0;
+    left:0;
+    right: 0;
+    display:flex;
+    position: fixed;
+    height: 60px;
+    line-height: 50px;
+    background-color: aliceblue;
+}
+.image>.pet-image{
+    width: 500px;
+    height:500px;
+    border-radius: 50%;
+}
+nav>ul>li{
+    display: inline-flex;
+    color: blue;
+    text-align: center;
+    font-size: x-large;
+    word-spacing: 10px;
+}
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
