@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+
     <title>Pet Website</title>
 </head>
 <body>
@@ -17,12 +20,19 @@
             </ul>
         </nav>
     </header>
+    <p>Change Theme</p>
+    <button class="btn btn-success" id="green">Green</button>
+    <button class="btn btn-warning" id="yellow">Yellow</button>
+    <button class="btn btn-danger" id="red">Red</button>
+    <button class="btn btn-primary" id="blue">Blue</button>
+    <button class="btn" id="reset">Reset</button>
     <section>
         <div class="image">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/American_Eskimo_Dog_1.jpg/1200px-American_Eskimo_Dog_1.jpg" class="pet-image">
+            <img src="/images/American_Eskimo_Dog_1.jpg" class="pet-image">
             <p>His name is <strong>Rexx</strong></p>
-            <p>it is a white Pamoranian Dog</p>
+            <p>It is a white Pamoranian Dog</p>
         </div>
     </section>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
